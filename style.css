@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+
+.navigasi {
+    background-color: #3b4997;
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: fixed;
+}
+
+
+.logo {
+   float: left;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   padding-left: 30px;
+}
+
+
+.menu {
+    margin-left: 800px;
+    padding-top: 27px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: lightskyblue;
+    font-style: italic;
+}
+
+.banner {
+    background-color: #3b5997;
+    height: 600px;
+    text-align: center;
+    color: white;
+}
+
+.banner img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+}
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover {
+    background-color: #3b5999;
+    border: 1px solid white;
+    color: white;
+}
+
+h1 span:before {
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-family: 100PX;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Selamat Datang';
+    }
+    50% {
+        content: 'Saya Nuri Ummahatina';
+    }
+    100% {
+        content:  'Terima Kasih Sudah Singgah';
+    }
+}
+
+
+.box-pendidikan {
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 50px;
+    align-content: center;
+    padding-top: 70px;
+}
+
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: #f0f0f0;
+    padding: 30px 20px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+}  
+.bungkus {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}  
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color: #3b5999;
+    color: white;
+}
+
+.box-pendidikan h3, p{
+    margin: 10px 13px;
+    padding: 0px 20px;
+}
+
+
+.box-hobi {
+    text-align: center;
+    color: #4d4d4d;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+
+.box-kontak img {
+    width: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.box-kontak {
+    text-align: center;
+    color: #4d4d4d;
+    margin-top: 100px;
+}
+
+
+.footer {
+    background-color: gray;
+    width: 100%;
+    height: 40px;
+    color: white;
+    padding: 3px;
+    margin: 50px auto 0px;
+}
+.footer{
+    text-align: center;
+}
